@@ -15,6 +15,7 @@ namespace LogicalPracticeProblems
             logicalProblems.checkswap();
             logicalProblems.checkLargestNumber();
             logicalProblems.checkReverse();
+            logicalProblems.PositiveOrNegative();
             Console.ReadLine();
         }
     }

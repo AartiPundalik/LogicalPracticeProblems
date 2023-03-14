@@ -23,31 +23,31 @@ namespace LogicalPracticeProblems
             }
             Console.ReadLine();
         }
-    public void checkswap()
-    {
-        int num1, num2, temp;
+        public void checkswap()
+        {
+            int num1, num2, temp;
 
-        Console.WriteLine("Enter first number");
-        num1 = 100;
-        Console.ReadLine();
+            Console.WriteLine("Enter first number");
+            num1 = 100;
+            Console.ReadLine();
 
-        Console.WriteLine("Enter second number");
+            Console.WriteLine("Enter second number");
 
-        num2 = 200;
-        Console.ReadLine();
+            num2 = 200;
+            Console.ReadLine();
 
-        Console.WriteLine("Values before swapping: num1=" + num1 + " and num2=" + num2);
+            Console.WriteLine("Values before swapping: num1=" + num1 + " and num2=" + num2);
 
-        temp = num1;
+            temp = num1;
 
-        num1 = num2;
+            num1 = num2;
 
-        num2 = temp;
+            num2 = temp;
 
-        Console.WriteLine("Values after swapping: num1=" + num1 + " and num2=" + num2);
+            Console.WriteLine("Values after swapping: num1=" + num1 + " and num2=" + num2);
 
-        Console.ReadLine();
-    }
+            Console.ReadLine();
+        }
         public void checkLargestNumber()
         {
             int num1, num2;
@@ -71,22 +71,40 @@ namespace LogicalPracticeProblems
                 Console.WriteLine("The 2nd Number is the greatest among three.");
             }
         }
-            public void checkReverse()
-            {
-                int n, reverse = 0, rem;
-                Console.WriteLine("Enter a number");
-                n = Convert.ToInt32(Console.ReadLine());
+        public void checkReverse()
+        {
+            int n, reverse = 0, rem;
+            Console.WriteLine("Enter a number");
+            n = Convert.ToInt32(Console.ReadLine());
 
-                while (n != 0)
-                {
-                    rem = n % 10;
-                    reverse = reverse * 10 + rem;
-                    n = n / 10;
-                }
-                Console.WriteLine("Reversed Number " + reverse);
+            while (n != 0)
+            {
+                rem = n % 10;
+                reverse = reverse * 10 + rem;
+                n = n / 10;
             }
+            Console.WriteLine("Reversed Number " + reverse);
+        }
+
+        public void PositiveOrNegative()
+        {
+            Console.WriteLine("Enter a number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            if (number > 0)
+            {
+                Console.WriteLine("Number is positive");
+            }
+            else
+            {
+                Console.WriteLine("Number is negative");
+            }
+            Console.ReadLine();
         }
     }
+}
+        
+        
+    
 
           
     
