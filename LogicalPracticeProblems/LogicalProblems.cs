@@ -111,22 +111,22 @@ namespace LogicalPracticeProblems
                 }
             }
         }
-                public void DivisibleByTwo()
-                {
-                    int num;
+        public void DivisibleByTwo()
+        {
+            int num;
             Console.WriteLine("Enter the Number");
             num = int.Parse(Console.ReadLine());
-                    
-                    if (num % 2 == 0)
-                    {
-                        Console.WriteLine("Divisible by 2 ");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Not divisible by 2");
-                    }
-                    Console.ReadLine();
-                }
+
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("Divisible by 2 ");
+            }
+            else
+            {
+                Console.WriteLine("Not divisible by 2");
+            }
+            Console.ReadLine();
+        }
         public void SumOfDigit()
         {
             int n, sum = 0, m;
@@ -139,9 +139,23 @@ namespace LogicalPracticeProblems
                 n = n / 10;
             }
             Console.Write("Sum is= " + sum);
+            Console.ReadLine();
+        }
+        public void MultiplesOf3And5(int A)
+        {
+            int sum = 0;
+            for (int i = 0; i <= A; i++)
+            {
+                if (i % 3 == 0 && i % 5 == 0)
+                    sum += i;
+            }
+            Console.WriteLine("Sum of multipal of 3 and 5: " + sum);
+            Console.ReadLine();
         }
     }
 }
+    
+
         
     
         
