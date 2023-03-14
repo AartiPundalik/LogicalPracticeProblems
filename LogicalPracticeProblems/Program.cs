@@ -18,6 +18,7 @@ namespace LogicalPracticeProblems
             logicalProblems.PositiveOrNegative();
             logicalProblems.OddNumber();
             logicalProblems.DivisibleByTwo();
+            logicalProblems.SumOfDigit();
             Console.ReadLine();
         }
     }
