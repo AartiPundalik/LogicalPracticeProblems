@@ -13,7 +13,7 @@ namespace LogicalPracticeProblems
             LogicalProblems logicalProblems = new LogicalProblems();
             logicalProblems.Checkevenorodd();
             logicalProblems.checkswap();
-
+            logicalProblems.checkLargestNumber();
             Console.ReadLine();
         }
     }
