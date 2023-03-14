@@ -10,8 +10,10 @@ namespace LogicalPracticeProblems
     {
         static void Main(string[] args)
         {
-            EvenOrOdd Checkevenorodd = new EvenOrOdd();
-            Checkevenorodd.Checkevenorodd();
+            LogicalProblems logicalProblems = new LogicalProblems();
+            logicalProblems.Checkevenorodd();
+            logicalProblems.checkswap();
+
             Console.ReadLine();
         }
     }
