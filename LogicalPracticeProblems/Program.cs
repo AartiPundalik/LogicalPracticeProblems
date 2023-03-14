@@ -17,6 +17,7 @@ namespace LogicalPracticeProblems
             logicalProblems.checkReverse();
             logicalProblems.PositiveOrNegative();
             logicalProblems.OddNumber();
+            logicalProblems.DivisibleByTwo();
             Console.ReadLine();
         }
     }
