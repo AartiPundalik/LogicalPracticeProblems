@@ -59,21 +59,38 @@ namespace LogicalPracticeProblems
             num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Input the  2nd number :");
             num2 = Convert.ToInt32(Console.ReadLine());
-           
+
 
             if (num1 > num2)
             {
-              
-                    Console.WriteLine("The 1st Number is the greatest among three.");
-                }
-                else
-                {
-                    Console.WriteLine("The 2nd Number is the greatest among three.");
-                }
+
+                Console.WriteLine("The 1st Number is the greatest among three.");
             }
-          
+            else
+            {
+                Console.WriteLine("The 2nd Number is the greatest among three.");
+            }
+        }
+            public void checkReverse()
+            {
+                int n, reverse = 0, rem;
+                Console.WriteLine("Enter a number");
+                n = Convert.ToInt32(Console.ReadLine());
+
+                while (n != 0)
+                {
+                    rem = n % 10;
+                    reverse = reverse * 10 + rem;
+                    n = n / 10;
+                }
+                Console.WriteLine("Reversed Number " + reverse);
+            }
+        }
     }
-}
+
+          
+    
+
 
     
 
