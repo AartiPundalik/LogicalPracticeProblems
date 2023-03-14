@@ -20,6 +20,7 @@ namespace LogicalPracticeProblems
             logicalProblems.DivisibleByTwo();
             logicalProblems.SumOfDigit();
             logicalProblems.MultiplesOf3And5(1000);
+            logicalProblems.MultiplesOf17();
             Console.ReadLine();
         }
     }
